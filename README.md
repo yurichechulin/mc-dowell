@@ -3,6 +3,8 @@ There are some exercise solutions from **[Cracking the Coding Interview: 189 Pro
 
 ![Cracking the Coding Interview](https://miro.medium.com/max/476/1*P7pTGa-PMfCq1VWuNJioig.png)
 
-They are grouped by chapters. Every exercise contains **[PHPUnit](https://github.com/sebastianbergmann/phpunit)** test file in `/tests` folder, if possible. You can run it with `phpunit tests` command. Also every exercise folder has its own `README.md` with description. 
+They are grouped by chapters. Every exercise contains **[PHPUnit](https://github.com/sebastianbergmann/phpunit)** test file in `/tests` folder, if possible. You can run it with `vendor/bin/phpunit tests` command. Also every exercise folder has its own `README.md` with description. 
+
+Before running PHPUnit tests you need to install required packages with `composer install`
 
 I hope this project helps to the beginners to understand how the exercises from this book are solved using PHP language.
