@@ -2,6 +2,9 @@
     "name": "yurichechulin/mc-dowell",
     "description": "Cracking the Coding Interview: 189 Programming Questions and Solutions",
     "type": "project",
+    "require" : {
+        "php": "^7.4"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     },
@@ -10,6 +13,5 @@
             "name": "Yuri Chechulin",
             "email": "yu.s.chechulin@gmail.com"
         }
-    ],
-    "require": {}
+    ]
 }
