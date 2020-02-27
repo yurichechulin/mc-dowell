@@ -13,5 +13,11 @@
             "name": "Yuri Chechulin",
             "email": "yu.s.chechulin@gmail.com"
         }
-    ]
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Exercises\\": "exercises/",
+            "Tests\\": "tests/"
+        }
+    }
 }
