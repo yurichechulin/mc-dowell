@@ -3,10 +3,6 @@ namespace Exercises\Chapter1Arrays\IsUnique;
 
 class IsUniqueExercise
 {
-    /**
-     * @param string $inputString
-     * @return bool
-     */
     public function hasAllUniqueCharacters(string $inputString) : bool {
         $inputString = strtolower($inputString);
 
